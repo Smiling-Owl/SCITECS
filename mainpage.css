@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Play Fair Display;
+    src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Frijole;
+    src: url(fonts/Frijole-Regular.ttf);
+}
+
+a:link{
+    text-decoration: none;
+}
+h1{
+    text-shadow: 14px 4px 4px rgb(157, 25, 209), -13px -4px 4px rgb(218, 32, 32), 6px 8px 4px rgb(247, 232, 31), -9px -8px 4px rgb(31, 196, 31) ;
+    font-size: 240px;
+    color:#BCC6CC;
+    font-family: Frijole, Garamond;
+    text-align: right;
+    margin-right: 10px;
+}
+body{
+    background-color: black;
+    text-decoration: none;
+}
+button{
+    display: flex;
+    justify-content: space-around;
+}
+.timeperiod{
+    font-size: 50px;
+    margin: 50px;
+    width: 20%;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 1px -1px 2px ;
+    border: 1px solid rgb(51, 12, 73);
+}
+.buttonText{
+    color: #BCC6CC;
+    font-family: Play Fair Display;
+}
+
+.timeperiod:hover{
+    background-color:rgb(66, 12, 97) ;
+    cursor: pointer;
+}
+
+
+
+@media (max-width:500px){
+    h1{
+        font-size: 5rem;
+        text-align: center;
+    }
+    .timeperiod{
+        border-radius: 25px;
+        border: 1px dotted rgb(51, 12, 73);
+        font-size: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
